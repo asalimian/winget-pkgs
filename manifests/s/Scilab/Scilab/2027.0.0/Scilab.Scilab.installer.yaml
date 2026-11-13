@@ -1,0 +1,17 @@
+# Created with VS Code 1.145.2
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Scilab.Scilab
+PackageVersion: 2027.0.0
+InstallerLocale: en-US
+InstallerType: inno
+ProductCode: scilab-2027.0.0 (64-bit)_is1
+ReleaseDate: 2026-10-15
+AppsAndFeaturesEntries:
+- ProductCode: scilab-2027.0.0 (64-bit)_is1
+Installers:
+- Architecture: x64
+  InstallerUrl: https://www.scilab.org/download/2027.0.0/scilab-2027.0.0.bin.x64.exe
+  InstallerSha256: 08547daa285c2f129b0da8d4beaa8952d308e1314f2b95fc61d27fdad08a12af
+ManifestType: installer
+ManifestVersion: 1.9.0
